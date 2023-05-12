@@ -18,7 +18,7 @@ public class WebConfig {
 
         CorsConfiguration corsConfiguration = new CorsConfiguration();
         corsConfiguration.setAllowCredentials(true);
-        corsConfiguration.setAllowedOrigins(Arrays.asList("http://localhost:4200", "https://portfolio-martin-antolini.web.app"));
+        corsConfiguration.setAllowedOrigins(Arrays.asList("http://localhost:4200", "https://portfolio-martin.onrender.com"));
         corsConfiguration.addAllowedMethod("*");
         corsConfiguration.addAllowedHeader("*");
         corsConfiguration.addExposedHeader("*");
